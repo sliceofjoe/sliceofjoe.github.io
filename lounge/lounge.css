@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: sans-serif; /* change font for parent 'body' to sans-serif */
+
+}
+h1, h2 {
+	color: gray; /* change all heading colors to gray */
+}
+		
+h1 {
+	border-bottom: 1px solid black; /*add a border under h1 */
+}
+		
+p { 
+	color: maroon; /* change all paragraph colors to maroon */
+}
+
+p.blueberry {
+	color:purple;
+}
+	
+p.greentea {
+	color:green;
+}
+
+p.raspberry {
+	color:blue;
+}
