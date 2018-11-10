@@ -1,29 +1,36 @@
-@charset "UTF-8";
-/* CSS Document */
 body {
-	font-family: sans-serif; /* change font for parent 'body' to sans-serif */
-
+	font-size: small;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
 }
+
 h1, h2 {
-	color: gray; /* change all heading colors to gray */
+	color: #007e7e;
 }
-		
+
 h1 {
-	border-bottom: 1px solid black; /*add a border under h1 */
-}
-		
-p { 
-	color: maroon; /* change all paragraph colors to maroon */
+	font-size: 150%;
 }
 
-p.blueberry {
-	color:purple;
-}
-	
-p.greentea {
-	color:green;
+h2 {
+	font-size: 130%;
 }
 
-p.raspberry {
-	color:blue;
+#guarantee {
+	border-color: black;
+	border-width: 1px;
+	border-style: dashed;
+	border-color: white;
+	background-color: #a7cece;
+	padding: 25px;
+	padding-left: 80px;
+	margin: 30px;
+	margin-right: 250px;
+	line-height: 1.9em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #444444;
+	background-image: url(images/background.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
 }
