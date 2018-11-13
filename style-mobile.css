@@ -1,0 +1,38 @@
+body {
+	font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #5D9FC1;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 130%;
+}
+
+a:link {
+  color: #5D9FC1;
+}
+
+a:visited {
+  color: #333333;
+}
+
+#headfirst {
+  /*float: right;*/
+  border: thin solid black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+#footer {
+	font-size: 50%;
+	line-height: normal;
+	text-align: center;
+	margin-top: 30px;
+}

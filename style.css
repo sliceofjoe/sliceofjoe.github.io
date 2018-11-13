@@ -1,0 +1,49 @@
+body {
+	font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #5D9FC1;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 130%;
+}
+
+q {
+  font-style: italic;
+}
+
+#headfirst a:link {
+  color: #5D9FC1;
+}
+
+#headfirst a:visited {
+  color: #333333;
+}
+
+#headfirst a:hover {
+	color: #5D9FC1;
+}
+
+#headfirst {
+  border: 1px dashed white;
+	width: 250px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color:	#E5E4E0;
+  line-height: 1;
+  float: right;
+}
+
+#footer {
+	font-size: 50%;
+	line-height: normal;
+	text-align: center;
+	margin-top: 30px;
+}
