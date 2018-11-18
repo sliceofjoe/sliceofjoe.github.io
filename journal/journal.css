@@ -7,6 +7,15 @@
 body { /* Provides default fonts and size */
   font-family: Verdana, Geneva, Arial, sans-serif;
   font-size: small;
+	background-color: #fcba7a;
+}
+
+.mainpage {
+		width: 90%;
+		padding: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: white;
 }
 
 h1,h2 { /* Makes headings orange and adds underline */
@@ -26,4 +35,47 @@ h2 {
 
 blockquote {
   font-style: italic;
+}
+
+table {
+	margin: 0px 20px;
+	border: thin solid black;
+	caption-side: bottom;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: thin dotted gray;
+	padding: 5px;
+}
+
+th {
+	background-color: #c60;
+}
+
+caption {
+	font-style: italic;
+	padding-top: 8px;
+}
+
+td.tableRight {
+	text-align: right;
+}
+
+td.tableCenter {
+	text-align: center;
+}
+
+table table th {
+	background-color: white;
+}
+
+.cellcolor {
+	background-color: #fcba7a;
+}
+
+li {
+	list-style-image: url(images/backpack.gif);
+	padding-top: 5px;
+	margin-left: 20px;
 }
