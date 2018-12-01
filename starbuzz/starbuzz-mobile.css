@@ -7,9 +7,9 @@ body {
 
 header.top {
   background-color: #675c47 ;
-  background-image: url(images/headerSlogan.gif);
+  /*background-image: url(images/headerSlogan.gif);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right;*/
   margin: 10px 10px 0px 10px;
   height: 108px;
 }
@@ -99,7 +99,7 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;
+/*  display: inline;*/
   padding: 5px 10px 5px 10px;
 }
 
